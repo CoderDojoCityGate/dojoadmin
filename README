@@ -1,8 +1,8 @@
-<h1>Admin Tool for CoderDojo</h1>
+Admin Tool for CoderDojo
 This is a tool to administrate CoderDojo members.<br />
 You can register new members, add/remove attendees and even update members' details.<br />
 There's a statistics page too.
 
-<h1>Security</h1>
+Security
 For security reasons the location of the final tool should be known only to mentors.
 Don't publish the URL of the tool as it increases the risk of stealing data.
