@@ -33,9 +33,9 @@ print "<form action='index.php";
 if (@$_GET['aos'] == '1') {print "?add=".$did;}
 
 print "' method='post' >
-        Name<br><input type='text' class='typein' name='dname' value='".$dname."'><br>
+        Name<br><input type='text' class='typein' name='dname' value=\"".$dname."\"><br>
         Age<br><input type='number' class='typein' name='dage' value='".$dage."'><br>
-        Guardian Name<br><input type='text' class='typein' name='dgname' value='".$dgname."'><br>
+        Guardian Name<br><input type='text' class='typein' name='dgname' value=\"".$dgname."\"><br>
         Guardian Phone Number<br><input type='text' class='typein' name='dcphone' value='".$dcphone."'><br>
         Contact E-mail Address<br><input type='email' class='typein' name='dcemail' value='".$dcemail."'><br>
         Computer ID(s)<br><input type='text' class='typein' name='dcomputer' value='".$dcomputer."'><br><br>
